@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        p {
+            color: purple;
+            font-size: 18px;
+            background-color: lightblue;
+        }
+        .class-selector {
+            color: orange;
+            font-size: 20px;
+            background-color: lightgreen;
+        }
+        #id-selector {
+            color: brown;
+            font-size: 22px;
+            background-color: lightpink;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div > p {
+            color: navy;
+            font-size: 16px;
+            background-color: lightyellow;
+        }  
+        div p {
+            color: teal;
+            font-size: 14px;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <h2>Element Selector</h2>
+    <p>This paragraph is selected using the element selector.</p>
+    <h2>Class Selector</h2>
+    <p class="class-selector">This paragraph is selected using the class selector.</p>
+    <h2>ID Selector</h2>
+    <p id="id-selector">This paragraph is selected using the ID selector.</p>
+    <h2>Child Selector</h2>
+    <div>
+        <p>This paragraph is a child of the div element.</p>
+    </div>
+    <h2>Descendant Selector</h2>
+    <div>
+        <p>This paragraph is a descendant of the div element.</p>
+    </div>
+    <h2>Universal Selector</h2>
+    <p>This paragraph is selected using the universal selector.</p>
+</body>
+</html>

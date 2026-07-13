@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightblue;
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box{
+            align-items: center;
+            width: 100px;
+            height: 100px; 
+            /* animation-name: harryKaAnimation; 
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0, 0, 0, 0.96);
+            animation-delay: 1s;
+            animation-direction: reverse;
+            animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: PawalChaAnimation 2s ease-in-out 3s 1, 
+                       AP 3s ease-in-out 10s 1;
+        }
+
+        @keyframes PawalChaAnimation {
+            from{
+                background-color: aqua;
+            }
+            to{
+                background-color: purple; 
+            }
+        }
+
+        @keyframes AP {
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: brown; 
+            }
+            0%{
+                transform: rotate(45deg);
+            }
+            20%{
+                transform: rotate(90deg);
+            }
+            50%{
+                transform: rotate(120deg);
+            }
+            80%{
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>

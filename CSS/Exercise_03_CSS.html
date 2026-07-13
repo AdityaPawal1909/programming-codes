@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 03 - CSS</title>
+    <style>
+        :root {
+            --color: blue;
+            --seccolor: rgb(129, 129, 214);
+        }
+
+        ul li {
+            margin: 10px;
+            list-style: none;
+            padding: 100px;
+        }
+
+        ul {
+            background-color: aqua;
+            display: flex;
+        }
+
+        ul li:first-child {
+            --color: rgb(195, 206, 40);
+            background-color: var(--color);
+        }
+
+        .nav2 {
+            --seccolor: rgb(218, 44, 44);
+            background-color: var(--seccolor);
+        }
+
+        .nav3 {
+            --color: rgb(159, 71, 231);
+            background-color: var(--color);
+        }
+
+        .nav4 {
+            --seccolor: rgb(18, 243, 112);
+            background-color: var(--seccolor);
+        }
+
+        p {
+            --color: rgb(15, 250, 172);
+            background-color: var(--color)
+        }
+
+        h1 {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li class="nav1">Home</li>
+            <li class="nav2">Info</li>
+            <li class="nav3">Product</li>
+            <li class="nav4">About us</li>
+        </ul>
+        <h1>Exercise 03 - Using CSS Variables to build Multicolor Nav Bar</h1>
+        <p class="p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto voluptates fugit quisquam, quo
+            architecto ab reiciendis, ducimus molestiae dicta magnam, iste labore tenetur commodi molestias! Alias
+            sapiente harum libero eos. Eos, asperiore
+        </p>
+    </div>
+
+</body>
+
+</html>

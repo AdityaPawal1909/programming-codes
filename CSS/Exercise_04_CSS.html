@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 04 - CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: fit-content;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            width: 100%;
+            background-color: black;
+            color: white;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .container {
+            background-color: gray;
+            width: 100%;
+            height: 60vh;
+        }
+
+        .boxes {
+            display: inline-block;
+
+        }
+
+        .box1 {
+            background-color: lightcoral;
+            width: 40vw;
+            height: 40vh;
+            margin: 50px 95px 50px 35px;
+        }
+
+        .box2 {
+            background-color: yellow;
+            width: 40vw;
+            height: 40vh;
+            margin: 50px 30px 50px 120px;
+        }
+
+        .content {
+            padding: 70px;
+            margin: 10px auto;
+            border-radius: 50px;
+            width: 60vw;
+            height: 15vh;
+            color: aqua;
+            background-color: black;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        .company-logo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+        }
+
+        footer {
+            width: 100%;
+            height: 50px;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="boxes box1">
+
+            </div>
+
+            <div class="boxes box2">
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Welcome to the Sigma Web Development Express</p>
+        </div>
+
+        <figure>
+            <img class="company-logo"
+                src="https://static.vecteezy.com/system/resources/previews/047/656/219/non_2x/abstract-logo-design-for-any-corporate-brand-business-company-vector.jpg"
+                alt="Company Logo" width="100px">
+        </figure>
+    </main>
+
+    <footer>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, saepe.</p>
+    </footer>
+    </head>
+</body>
+
+</html>

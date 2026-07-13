@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 03</title>
+</head>
+
+<body>
+    <script>
+        let a = prompt("Enter the Number to find its Factorial")
+
+        // With for LOOP
+        let fac = 1
+        for (let i = 1; i <=a; i++) {
+            fac = fac * i
+        }
+        console.log(fac)
+
+        // With Reduce Function
+        let num = [];
+        for (let i = 1; i <=a; i++) {
+            num[i-1] = i
+        }
+        const red = (a, b) => {
+            return a * b
+        }
+        console.log(num.reduce(red))
+    </script>
+</body>
+
+</html>

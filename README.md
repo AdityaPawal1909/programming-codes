@@ -13,6 +13,7 @@ The purpose of this repository is to improve programming fundamentals, problem-s
 - HTML
 - CSS
 - JavaScript
+- NodeJS (Fundamentals)
 
 ---
 
@@ -52,6 +53,20 @@ The purpose of this repository is to improve programming fundamentals, problem-s
 - Promises
 - Async/Await
 
+### NodeJS
+- Node.js Introduction
+- npm (Node Package Manager)
+- CommonJS Modules
+- ES Modules
+- File System (`fs`) Module
+- Path Module
+- HTTP Module
+- Asynchronous Programming
+- Callbacks
+- Buffers
+- Creating HTTP Servers
+- Request & Response Handling
+
 ---
 
 ## 🎯 Purpose
@@ -64,6 +79,6 @@ This repository documents my learning journey by storing practice codes, exercis
 
 **Aditya Pawal**
 
-Computer Engineering Student
+Computer Science Engineering Student
 
 Future Full Stack Developer & AI/ML Engineer 🚀
